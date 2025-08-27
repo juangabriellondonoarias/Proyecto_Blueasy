@@ -52,7 +52,7 @@ header a{
     text-decoration: none;
     color: white;
     font-size: 13px;
-    margin: 0 20px;
+    margin-left: 25px;
     font-weight: 700;
 }
 
@@ -91,7 +91,7 @@ header samp{
 }
 
 .section2 p{
-    font-size: 10px;
+    font-size: 14px;
 }
 
 /* section 3 */
@@ -104,7 +104,7 @@ header samp{
 }
 
 .servicios h4{
-    font-size: 25px;
+    font-size: 30px;
     color: #69747B;
 }
 
@@ -112,8 +112,14 @@ header samp{
     color: #69747B;
     text-decoration: none;
     font-size: 13px;
-    margin: 0 20px;
+    margin-left: 25px;
     font-weight: 700;
+}
+
+.linea{
+    background-color:#69747B;
+    height: 2px;
+    width: 50%;
 }
 
 .section3 a:hover{
@@ -132,48 +138,56 @@ header samp{
     padding: 4% 15%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 200px);
+    grid-template-rows: repeat(2, 300px);
     gap: 30px;
 }
 
 .img1{
     background: url(../assets/photo01.png);
     background-size: cover;
+    background-position: center;
 }
 
 .img2{
     background: url(../assets/photo02.png);
     background-size: cover;
+    background-position: center;
 }
 
 .img3{
     background: url(../assets/photo03.png);
     background-size: cover;
+    background-position: center;
 }
 
 .img4{
     background: url(../assets/photo04.png);
     background-size: cover;
+    background-position: center;
 }
 
 .img5{
     background: url(../assets/photo05.png);
     background-size: cover;
+    background-position: center;
 }
 
 .img6{
     background: url(../assets/photo06.png);
     background-size: cover;
+    background-position: center;
 }
 
 .img7{
     background: url(../assets/photo07.png);
     background-size: cover;
+    background-position: center;
 }
 
 .img8{
     background: url(../assets/photo08.png);
     background-size: cover;
+    background-position: center;
 }
 
 /* section 4 */
@@ -182,21 +196,26 @@ header samp{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 300px);
-    gap: 10%;
+    gap: 20%;
     padding: 5% 15%;
     background-color: #515F67;
     color: white;
 }
 
 .two h4{
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.linea1{
+    background-color: #ffffff;
+    height: 2px;
+    width: 12%;
     margin-bottom: 20px;
 }
 
-
 .two p{
-    font-size: 12px;
-    line-height: 23px;
+    font-size: 15px;
+    line-height: 24px;
 }
 
 .two button{
@@ -204,7 +223,7 @@ header samp{
     color: #353F46;
     border: 2px solid #353F46;
     padding: 10px 25px;
-    margin-top: 12px;
+    margin-top: 26px;
     cursor: pointer;
 }
 
@@ -235,7 +254,13 @@ header samp{
 }
 
 .social h4{
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.linea2{
+    background-color: #ffffff;
+    height: 2px;
+    width: 50%;
 }
 
 .social img{
@@ -243,8 +268,8 @@ header samp{
 }
 
 .section5 p{
-    font-size: 21px;
-    line-height: 42px;
+    font-size: 25px;
+    line-height: 39px;
 }
 
 /* section 6 */
@@ -261,7 +286,13 @@ header samp{
 }
 
 .section6 h4{
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.linea3{
+    background-color: #ffffff;
+    height: 2px;
+    width: 8%;
     margin-bottom: 25px;
 }
 
@@ -270,12 +301,12 @@ header samp{
 }
 
 .section6 p{
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .p3{
-    margin-top: 50px;
+    margin-top: 57px;
     margin-bottom: 23px;
 }
 
@@ -290,9 +321,15 @@ header samp{
 }
 
 .section7 h4{
-    font-size: 25px;
-    margin-bottom: 25px;
+    font-size: 30px;
     color: #515F67;
+}
+
+.linea4{
+    background-color: #515F67;
+    height: 2px;
+    width: 25%;
+    margin-bottom: 20px;
 }
 
 .section7 img{
@@ -301,7 +338,7 @@ header samp{
 
 .p4{
     color: #000000;
-    font-size: 21px;
+    font-size: 25px;
     line-height: 35px;
     margin-bottom: 20px;
 }
@@ -327,7 +364,7 @@ header samp{
 }
 
 .section8 p{
-    font-size: 12px;
+    font-size: 15px;
     line-height: 16px;
 }
 
@@ -351,7 +388,14 @@ textarea{
 }
 
 .section8 h4{
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.linea5{
+    background-color: #ffffff;
+    height: 2px;
+    width: 4%;
+    margin-bottom: 25px;
 }
 
 .principal{
@@ -414,6 +458,10 @@ footer p{
     font-size: 10px;
 }
 
+.foo span{
+    padding-left: 10px;
+}
+
 @media (max-width:1279px){
 
     header a{
@@ -458,7 +506,6 @@ footer p{
 
     .two h4 {
     font-size: 22px;
-    margin-bottom: 15px;
     }
 
     .two button{
@@ -510,7 +557,6 @@ footer p{
     /* section 7 */
     .section7 h4{
         font-size: 22px;
-        margin-bottom: 20px;
     }
 
     .p4{
@@ -557,5 +603,406 @@ footer p{
 
     footer p {
         font-size: 11px;
+    }
+}
+
+@media (max-width:920px){
+
+    /* section 1 */
+    .section1{
+        height: 60vh;
+    }
+
+    .section1 h2 {
+        font-size: 20px;
+    }
+
+    header{
+        padding: 3% 15%;
+    }
+
+    header a {
+        font-size: 8px;
+        margin: 0 6px;
+    }
+
+    .hom{
+        padding: 8px 15px;
+    }
+
+    header h1{
+        
+        font-size: 22px;
+    }
+
+    header samp{
+        font-size: 28px;
+    }
+
+    .section2{
+        gap: 20px;
+    }
+
+    .section2 h3 {
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    .section2 p {
+        font-size: 7px;
+    }
+
+    .section3 a {
+        font-size: 8px;
+        margin: 0 6px;
+    }
+
+    .section3 .al{
+        padding: 8px 15px;
+    }
+
+    .servicios h4 {
+        font-size: 20px;
+    }
+
+    .galeria {
+        grid-template-rows: repeat(2, 120px);
+        gap: 12px;
+    }
+
+    .two h4{
+        margin-bottom: auto;
+        font-size: 20px;
+    }
+
+    .two p {
+        font-size: 7px;
+        line-height: 14px;
+    }
+
+    .social h4 {
+        font-size: 20px;
+    }
+
+    .section5 p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .section6 p {
+        font-size: 7px;
+        line-height: 14px;
+    }
+
+    .section6 h4 {
+        font-size: 20px;
+    }
+
+    .section7 h4 {
+        font-size: 20px;
+    }
+
+    .p4 {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .p5 {
+        font-size: 11px;
+    }
+
+    .section8 h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:768px){
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    header samp {
+        font-size: 22px;
+    }
+
+    header a {
+        font-size: 7px;
+        margin: 0px 2px;
+    }
+
+    .section1 h2 {
+        font-size: 13px;
+    }
+
+    .section1 {
+        height: 45vh;
+    }
+
+    .section3 a {
+        font-size: 7px;
+        margin: 0 2px;
+    }
+
+    .servicios h4 {
+        font-size: 15px;
+    }
+
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 p {
+        font-size: 10px;
+    }
+
+    .galeria {
+        grid-template-rows: repeat(2, 80px);
+        gap: 10px;
+    }
+
+    .two h4 {
+        margin-bottom: auto;
+        font-size: 15px;
+    }
+
+    .linea1{
+        margin-bottom: 10px;
+    }
+
+    .two button {
+        font-size: 8px;
+        padding: 5px 10px;
+        margin-top: 7px;
+    }
+
+    .imgvideo {
+        margin-top: 40%;
+    }
+
+    .social h4 {
+        font-size: 15px;
+    }
+
+    .section5 p {
+        font-size: 8px;
+        line-height: 18px;
+    }
+
+    .section6 h4 {
+        font-size: 15px;
+    }
+
+    .p3{
+        margin-bottom: 43px;
+    }
+
+    .section6 img {
+        margin-right: 2px;
+        width: 21%;
+    }
+
+    .section7 h4 {
+        font-size: 15px;
+    }
+
+    .p4 {
+        font-size: 8px;
+        line-height: 15px;
+        margin-bottom: 8px;
+    }
+
+    .p5 {
+        font-size: 8px;
+    }
+
+    .section8 h4 {
+        font-size: 15px;
+    }
+
+    input{
+        padding: 5px 0px;
+    }
+
+    .section8 p {
+        font-size: 7px;
+        line-height: 10px;
+    }
+
+    .principal{
+        margin: auto;
+    }
+
+    textarea{
+        padding: 15px 0px;
+    }
+
+    .section8 button {
+        padding: 8px 15px;
+        margin-top: 10px;
+    }
+
+    .foo h5 {
+        margin: 0px 2px;
+        font-size: 6px;
+    }
+
+    footer{
+        align-items: center;
+    }
+
+    footer p {
+        font-size: 9px;
+    }
+}
+
+@media (max-width:480px){
+
+    header a {
+        font-size: 5px;
+        margin: 0px 2px;
+    }
+
+    header h1 {
+        font-size: 15px;
+    }
+
+    header samp {
+        font-size: 19px;
+    }
+
+    .section1 h2 {
+        font-size: 11px;
+    }
+
+    .section1 {
+        height: 40vh;
+    }
+
+    .servicios{
+        flex-direction: column;
+    }
+
+    .servicios h4{
+        font-size: 20px;
+    }
+
+    .linea{
+        margin-bottom: 10px;
+    }
+
+    .section3 .al {
+        padding: 5px 12px;
+    }
+
+    .section3 a{
+        margin: 0 4px;
+    }
+
+    .galeria {
+        grid-template-rows: repeat(8, 226px);
+        grid-template-columns: repeat(1, 1fr);
+        gap: 6px;
+    }
+
+    .imgvideo {
+        margin-top: 0%;
+    }
+
+    .section4 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 200px);
+        gap: 8%;
+        padding: 10% 15% 2% 15%;
+    }
+
+    .two h4 {
+        font-size: 20px;
+    }
+
+    .two p {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .social h4 {
+        font-size: 20px;
+    }
+
+    .social img {
+        width: 10%;
+        height: 2vh;
+    }
+
+    .section5 p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .section6{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 26px;
+    }
+
+    .p3 {
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .section6 h4 {
+        font-size: 20px;
+    }
+
+    .section6 p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .section7 h4 {
+        font-size: 20px;
+    }
+
+    .section7 img {
+        width: 20%;
+    }
+
+    .p4{
+        font-size: 10px;
+    }
+
+    .section8 h4 {
+        font-size: 20px;
+    }
+
+    .principal{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 5px;
+    }
+
+    .linea5{
+        width: 12%;
+        margin-bottom: 15px;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    .section8 button {
+        padding: 6px 13px;
+        margin-top: 8px;
+        width: 33%;
+    }
+
+    .foo h5 {
+        margin: 0px 2px;
+        font-size: 4px;
+    }
+
+        footer p {
+        font-size: 7px;
     }
 }
